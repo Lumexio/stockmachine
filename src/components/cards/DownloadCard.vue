@@ -18,7 +18,7 @@
 <script setup>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-let path = 'dist/'
+let path = '../../todownload/'
 let fileName = ''
 function downloadFile(url, filename) {
   const link = document.createElement('a');
@@ -31,10 +31,10 @@ function downloadFile(url, filename) {
 
 function handleDownload(os) {
   if (os == 'windows') {
-    fileName = 'stockSystem-1.0.0.txt';
+    fileName = 'stockmachine_1.0.0_amd64.exe';
     downloadFile(path, fileName);
   } else {
-    fileName = 'stockSystem-1.0.0.deb';
+    fileName = 'stockmachine_1.0.0_amd64.deb';
     downloadFile(path, fileName);
   }
 }
