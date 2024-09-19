@@ -17,8 +17,11 @@
       <h3>Powered By:</h3>
       <ul>
         <li>
-          <a href="https://svelte.com">
-            <Icon icon="ri:svelte-fill" width='2rem' height="2rem" />
+          <a href="https://vuejs.org/" target="_blank">
+            <Icon icon="mingcute:vue-fill" width='2rem' height="2rem" />
+          </a>
+          <a href="https://electronjs.com" target="_blank">
+            <Icon icon="fontisto:electronjs" width='2rem' height="2rem" />
           </a>
         </li>
       </ul>
