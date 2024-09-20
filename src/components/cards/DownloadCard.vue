@@ -34,7 +34,7 @@ function handleDownload(os) {
   let fileName = '';
 
   if (os === 'windows') {
-    fileName = 'STOCKMACHINE-1.0.0 Setup.rar';
+    fileName = 'STOCKMACHINE-1.0.0 Setup.exe';
   } else {
     fileName = 'stockmachine_1.0.0_amd64.deb';
   }
