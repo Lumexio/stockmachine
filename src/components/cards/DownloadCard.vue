@@ -31,7 +31,7 @@ function downloadFile(url, filename) {
 
 function handleDownload(os) {
   if (os == 'windows') {
-    fileName = 'stockmachine_1.0.0_amd64.exe';
+    fileName = 'STOCKMACHINE-1.0.0 Setup.exe';
     downloadFile(path, fileName);
   } else {
     fileName = 'stockmachine_1.0.0_amd64.deb';
