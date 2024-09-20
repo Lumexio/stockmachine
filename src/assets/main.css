@@ -30,7 +30,6 @@ a,
 .cards-container {
   display: grid;
   gap: 1rem;
-  padding: 20px;
   grid-auto-flow: dense;
   grid-auto-rows: 22rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -41,12 +40,7 @@ a,
   border-radius: 10px;
   box-shadow: 0 2px 3px var(--box-shadow-color);
   padding: 20px;
-  letter-spacing: 1px;
-  font-weight: 400;
-  font-family: fantasy;
   text-align: center;
-  line-height: 2rem;
-  text-indent: 1rem;
   transition: 0.5s ease-in-out;
 }
 
