@@ -28,6 +28,9 @@ function downloadFile(url, filename) {
   link.click();
   document.body.removeChild(link);
 }
+function downloadFileDirect(url) {
+  window.open(url, '_blank');
+}
 
 function handleDownload(os) {
   let path = '/todownload/';
@@ -35,11 +38,13 @@ function handleDownload(os) {
 
   if (os === 'windows') {
     fileName = 'STOCKMACHINE-1.0.0 Setup.exe';
+    downloadFileDirect('https://drive.google.com/file/d/1gwdSMtp-WZ3bszkH6BmHBqSMitV_aLix/view?usp=sharing');
   } else {
     fileName = 'stockmachine_1.0.0_amd64.deb';
+    downloadFile(`${path}${fileName}`, fileName);
   }
 
-  downloadFile(`${path}${fileName}`, fileName);
+
 }
 </script>
 
