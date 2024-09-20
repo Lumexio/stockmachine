@@ -67,8 +67,8 @@ a,
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  gap: 1rem;
-  height: 50%;
+
+  height: 7rem;
 }
 
 .button-accent {
